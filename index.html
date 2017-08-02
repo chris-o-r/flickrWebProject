@@ -1,0 +1,52 @@
+<!--Chris O'Riordan -->
+<!--R00137629-->
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="leaflet.css" />
+    <script src="leaflet.js"></script>
+
+    <link rel="stylesheet" href="CSS.css" />
+    <script src="javaScript.js"></script>
+
+</head>
+
+<body>
+    
+    <div id="superContainer">
+        <input type="image" value="nextImage" onclick="moveCarosuelRight()" id="buttonRight" class="moveButton" src="left-arrow.png" />
+        <div id="imageCarosuelContainer">
+            <div id="imageCarosuel"></div>
+        </div>
+        <input type="image" value="nextImage" onclick="moveCarosuelLeft()" id="buttonLeft" class="moveButton" src="right-arrow.png" />
+
+    </div>
+
+    <div id="leftPanel">
+        <h2>Location</h2>
+        <select id="location">
+            <option selected value="null">Please Select An Option</option>
+            <option value = "Cork, Ireland">Cork</option>
+            <option value = "Dublin, Ireland">Dublin</option>
+            <option value = "Galway, Ireland">Galway</option>
+            <option value = "Derry">Derry</option>
+            <option value = "Dubai, United Arab Emerates">Dubai</option>
+        </select>
+
+        <h2>Tags</h2>
+        <input id="tags" type="text" />
+
+        <br>
+        <input type="button" value="Find Images" onclick="getLocation()" id="findImageButton" />
+
+        <div id="map"></div>
+    </div>
+    
+    
+    <div id="imageBox">
+    </div>
+    
+</body>
+
+</html>

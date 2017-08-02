@@ -1,0 +1,107 @@
+/*
+Chris O'Riordan
+R00137629
+
+*/
+
+
+body{
+    background-color: #2e2e2d;
+    border-color: white;
+    margin: 10px;
+    font-family: monospace;
+}
+.moveButton {
+    position: relative;
+    background-color: #008CBA;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    height:118px;
+    width: 20px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+#buttonLeft{
+    float:left;
+}
+#buttonRight{
+    float:right;
+}
+
+.carosuelImage{
+    height: 125px;
+    border-radius: 8px;
+    margin: 10px;
+    opacity: 0.5;
+
+}
+#selectedImage{
+    opacity: 0;
+}
+h2{
+    color: whitesmoke;
+    font-style: normal;
+}
+div{
+    border-color: floralwhite;
+    border-width: 3px;
+    border-style: solid;
+}
+#imageCarosuel{
+    top: 0px;
+    background-color: #636260;
+    border-width: 0px;
+    height: 150px;
+    width: 1322px;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    float: right;
+    
+}
+#imageCarosuelContainer{
+    background-color: #636260;
+    height: 150px;
+    width: 90.3%;
+    margin:1px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    overflow: hidden;
+    float:right;
+}
+#leftPanel{
+    width: 320px;
+    margin-top: 15px;
+    margin-right: 5px;
+    float: left;
+}
+#map{
+    height: 400px; 
+    max-width: 300px; 
+}
+#imageBox{
+    height: 600px;
+    width: 73%;
+    margin-top: 17px;
+    float: right;
+}
+#findImageButton{
+    margin: 7px;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
